@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('./Assets/font/MuseoSans_500.otf');
+}
+
+@font-face {
+  font-family: 'MuseoSans300';
+  src: url('./Assets/font/Museo_300.otf')
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./Assets/font/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('./Assets/font/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./Assets/font/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('./Assets/font/Montserrat-Light.otf');
+}
+
+.text-danger{
+  font-size: 12px;
+}
+
+.top-icon{
+  font-size: 9px;
+  padding: 0px 7px;
+}
+
+.modal-header{
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+
+.table > thead > tr{
+  background-color: #569fde!important;
+    color: #fff;
+    font-weight: 900;
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+.react-bs-table-tool-bar .col-xs-6.col-sm-6.col-md-6.col-lg-8 {
+  display: none;
+  }
+
+  .input_dev{
+    width: 100%;
+  }
+
+  .input_dev input{
+    width: 100%;
+  }
+
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    }
+
+    .dropup, .dropdown {
+    position: relative;
+    }
+
+    .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+    content: "";
+    }
+
+    .row_name, .row_symbol {
+      display: inline-block;
+
+  }
+
+    .row_symbol {
+    color: red;
+    margin-left: 10px;
+}
+
+.table td, .table th {
+  padding: 6px 10px;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table td, .table th {
+  padding: 6px 5px !important;
+}
+
+.grn_date .react-datepicker-wrapper{
+  margin-left: 27px;
+}
+
+.grn_date input{
+  max-width: 200px;;
+}
+
+
+.custom-file-input{
+  opacity: 1 !important;
+  max-width: 100%;
+}
+
+.fileboxstyle{
+  border-radius: 5px;
+  border: 0px !important;
+  top: -3px;
+  position: relative;
+}
+
+.react-datepicker-popper{
+  z-index: 999 !important;
+}
+
+.row.select-full .row {
+  margin-top: 0px !important;
+}
+
+.row.select-full .col-12.col-md-6{
+  width:100%;
+  max-width: 100%;
+  flex: unset;
+}
+
+tr.bold_row {
+  font-weight: bold;
+}
+/*css write by Bipin*/
+.select_cstm table tbody tr:nth-child(1) {
+  height: 150px;;
+}
+.select_cstm table tbody tr td textarea {
+  height: 150px;;
+  width: 100%;
+  resize: none;
+  padding: 10px 25px;
+  margin-top: 25px;
+}
+.btn_md .btn {
+  width: 80px;;
+}
+.glsearch {
+  margin-left: -15px;;
+}
+.hint label {
+  margin-bottom: 3px;;
+}
+.hint p {
+  font-size: 10px !important;
+}
+.logo div {
+  width: 130px;
+  height: 70px;
+  overflow: hidden;
+}
+.logo>div img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#ctm-textar {
+  resize: none;
+  height: 80px !important;
+}
+.show_list .row label, #tabs .row label, .show_list .row .form-check-inline {
+  padding-top: 7px;
+}
+.show_list .row .form-check label, #tabs .row .form-check label, .lbl-pz label {
+  padding-top: 0px !important;
+}
+ul.list_style {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.list_style li {
+  padding-bottom: 5px;;
+}
+.show_list .row p {
+ color: green;
+}
+div.bg-lightblue {
+  background-color: #d1e1ef !important;
+}
+div.bg-lightblue.text-white {
+  color: #000 !important;
+  font-weight: bold !important;
+}
+.show_list .table-responsive thead th a:link{
+  color: #33c;
+  text-decoration: none;
+  outline: none;
+}
+.show_list .table-responsive thead th a:hover{
+  text-decoration: none;
+}
+.ctmMdl tr td p {
+  color: blue;
+}
+.ctmMdl .modal-dialog {
+  max-width: inherit   !important;
+  width: 90% !important;
+}
+.ctmMdl.ctmMdl_cotract .modal-dialog {
+  max-width: inherit   !important;
+  width: 50% !important;
+}
+.check_table tbody tr td:nth-last-child(1) p {
+  color: blue;
+}
+.show_list .table-responsive thead th a:hover{
+  text-decoration: none;
+}
+.check_table thead th:nth-child(1), .check_table tbody tr td:nth-child(1) {
+  width: 70px !important;
+  text-align: center;
+}
+.check_table tbody tr td:nth-last-child(1) {
+  text-align: left !important;
+}
+.check_table textarea {
+  width: 100%;
+}
+.show_list .row label span {
+  color: #dc3545 !important;
+}
+.react-bs-table-search-form {
+  margin-bottom: 10px !important;
+}
+.btn.disabled, .btn:disabled {
+  color: #000 !important;
+  opacity: .40 !important;
+}
+.add_approved h6 {
+  font-size: 12px;
+}
+.show_list.vendor-master-detail .row label span {
+  color: #000 !important;
+}
+
+.add_user .select_cstm table tbody tr td textarea {
+  margin-top: 0px !important;
+}
+.add_user .select_cstm table td {
+  border-top: none !important;
+}
+.line-height label {
+  line-height: 150px;;
+}
+
+.btn-up span {
+  display: inline-block;
+  position: relative;
+}
+.btn-up span:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 3px;
+  right: -25px;
+  background: url(./Common/images/collapse_up.gif);
+  background-repeat: no-repeat;
+}
+.btn-up.active span:after {
+  background: url(./Common/images/collapse_down.gif);
+}
+.text-danger-p ul {
+  list-style-type: square;
+  padding-left: 15px;
+}
+.text-danger-p ul li {
+  color: #dc3545 !important;
+}
+
+/* .frame-sidebar .sidebar-opt {
+  padding: 170px 0px 20px !important;
+} */
+ /* .css-1hwfws3:hover .css-1uccc91-singleValue {
+  display: none !important;
+}  */
+
+/*css write by Bipin End*/

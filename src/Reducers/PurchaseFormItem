@@ -1,0 +1,21 @@
+import {DELETE_PURCHASE_ORDER_DATA, DELETE_PURCHASE_ORDER_DEFAULT } from '../Actions/Actions';
+const initialstate = {
+    status:'FAILURE',
+    errMessage:'',
+    responseList:[],
+    loading:false,
+}
+
+let PurchaseFormItem = (state = initialstate, action) => {
+    switch(action.type){
+
+        case DELETE_PURCHASE_ORDER_DATA:
+            const commentId = action.data;
+            return state.filter(comment => comment.id !== commentId);
+
+        default :
+        return {...state};
+
+    }
+}
+export default PurchaseFormItem;

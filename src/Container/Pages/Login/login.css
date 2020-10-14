@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+.row {
+}
+
+p, div, li, input, option, textarea, td, th, span {
+    font-family: 'Montserrat-Regular';
+}
+
+p {
+    margin: 0;
+}
+
+.login-container {
+    background-image: url('./login-bg-default.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.login-container .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-container .form-container .form-box {
+    background: rgba(65, 78, 103, 0.46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 458px;
+    min-height: 100px;
+    padding: 25px;
+	margin-top: 66px;
+}
+
+.login-container .form-container .form-box .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .form-container .form-box .logo-container .logo {
+    width: 190px;
+}
+
+.login-container .form-container .form-box .description {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    padding: 16px 0px;
+}
+
+.login-container .form-container .form-box .row-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.login-container .form-container .form-box .row-form i {
+    position: absolute;
+    color: #c6c6c6;
+    font-size: 22px;
+    padding: 0px 15px;
+}
+
+.login-container .form-container .form-box .row-form input {
+    width: 100%;
+    background-color: rgba(167, 167, 167, 0.29);
+    border: none;
+    height: 38px;
+    padding: 0px 15px 0px 50px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.login-container .form-container .form-box .row-form input::placeholder {
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.login-container .form-container .form-box .button-container .login-button {
+    background-color: #26A9E3;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+}
+
+.login-container .form-container .form-box .forgot-password {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.login-container .form-container .form-box .credits {
+    font-size: 12px;
+    color: #c6c6c6;
+    padding: 20px 0px 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .login-container .form-container .form-box {
+        background: rgba(65, 78, 103, 0);
+        box-shadow: none;
+        padding: 0px 30px;
+        min-width: auto;
+    }
+
+    .login-container .form-container .form-box .logo-container .logo {
+        width: 22vh;
+    }
+
+    .login-container .form-container .form-box .description {
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+        padding: 18px 0px;
+    }
+
+    .login-container .form-container .form-box .row-form {
+        margin-bottom: 18px;
+    }
+
+    .login-container .form-container .form-box .row-form i {
+        position: absolute;
+        color: #c6c6c6;
+        font-size: 20px;
+        padding: 0px 15px;
+    }
+
+    .login-container .form-container .form-box .row-form input {
+        width: 100%;
+        background-color: rgba(167, 167, 167, 0.29);
+        border: none;
+        height: 40px;
+        padding: 0px 15px 0px 48px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .login-container .form-container .form-box .row-form input::placeholder {
+        color: #c6c6c6;
+        font-size: 12px;
+    }
+
+    .login-container .form-container .form-box .button-container .login-button {
+        background-color: #26A9E3;
+        height: 50px;
+        width: 100%;
+        color: #ffffff;
+        font-size: 14px;
+        border: none;
+    }
+
+    .login-container .form-container .form-box .forgot-password {
+        font-size: 12px;
+        padding: 16px 0px;
+    }
+
+    .login-container .form-container .form-box .credits {
+        font-size: 12px;
+        padding: 40px 0px 0px;
+    }
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.form-group input{
+    border-radius: 0px;
+}
